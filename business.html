@@ -1,18 +1,19 @@
 <!DOCTYPE html>
+
 <html lang="ja">
 
     <head>
 
 
         <meta chrset="utf-8">
-        <title>株式会社マリナ</title>
+        <title>事業案内｜Marina Co.,Ltd. アパレル製品のOEM生産</title>
+        <meta name="description" content="事業案内｜企画提案・海外生産・生産管理のアパレルOEM会社｜東京都墨田区の株式会社マリナ">
+
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
         <link rel="stylesheet" href="stylesheet.css">
         <link rel="responsive" href="responsive.css">
 
-        <script src="https://code.jquery.com/jquery-3.5.1.js" 
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
-        crossorigin="anonymous"></script>
-        <script src="jQuery.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
 
@@ -27,45 +28,54 @@
 
 
 
-<!--  flexbox　ナビ -->
-
 
     <body>
 
 
-
+        <!--  共通ヘッダー -->
+        <!--　flexbox　-->
 
         <header class="gnav">
 
-               
+            <nav class="gnav-left">
+                
+                <div class="gnav-darin">
+                    <a href="index.html">
 
-            <nav class="gnav-menu">
-                <ul class="container">
-
-                    <li class="item1">
-                        <a  href="#">
+                        <img class="darin1" src="img/headdarin.png">
+                        </br>
+                        <span class="marina">MARINA Co.,Ltd.</span>
     
-                            <img src="img/headdarin.png">
-                            </br>
-                            <span class="marina">MARINA Co.,Ltd.</span>
-            
-                        </a>
+                    </a>
+                </div>
+
+            </nav>
+
+            <nav class="gnav-right">
+
+                <ul class="container">
+                    
+                    <li class="item1"><a class="btn" href="business.html">事業案内</a></li>
+                    
+                    <li class="item2"><a class="btn" href="company.html">会社概要</a></li>
+
+                    <li class="item3"><a class="btn" href="contact.html">お問い合わせ</a></li>
+
+                    <li class="item4">
+                        <a class="btn1" href="">Language</a>
+                        <ul>
+                            <li class="lan"><a class="btn-lan" href="en-index.html">ENGLISH</a></li>
+                            <li class="lan"><a class="btn-lan" href="index.html">日本語</a></li>
+
+                        </ul>
+                    
+                    
                     </li>
-
-
-                    <li class="item2"><a class="btn" href="#">企業理念</a></li>
-
-                    <li class="item3"><a class="btn" href="#">事業案内</a></li>
-
-
-                    <li class="item4"><a class="btn" href="#">会社概要</a></li>
-
-                    <li class="item5"><a class="btn" href="#">お問い合わせ</a></li>
-
-                    <li class="item6"><a class="btn" href="#">ENGLISH</a>
                     
                 </ul>
+            
             </nav>
+
         </header>
 
 
@@ -92,7 +102,7 @@
             <div class="text">
 
             
-                <span class="T">私たちは、日本とアジアを繋ぐ架け橋になる。</br>新しいを創造する会社</span>
+                <span class="T">事業案内</span>
 
             </div>
 
@@ -172,7 +182,7 @@
         
 
 
-        <!--  フッター　-->
+        <!--  共通フッター　-->
         <!--  gridlayaut -->
 
 
@@ -180,12 +190,20 @@
         
         
             <div class="footer-body">
-
                 
+                <div class="item-a">
 
-                <div class="f1">1</div>
+                    <a class="contact" href="contact.html">
+                        <p class="c">お問い合わせ</p>
+                    </a>
 
-                <div class="f2">
+                    
+
+                </div>
+
+
+
+                <div class="item-b">
                     
                     <address>
 
@@ -199,22 +217,10 @@
                     
                 
                 </div>
-                
-                <div class="f3">
 
-                    <a class="contact" href="#">
-                        <p class="c">お問い合わせ</p>
-                    </a>
 
-                    
 
-                </div>
-                
-                <div class="f4"></div>
-                
-                <div class="f5"></div>
-
-                <div class="f6">
+                <div class="item-c">
 
                     
 
@@ -241,16 +247,15 @@
 
 
 
-                <div class="f7">
-                    /
-                    <a class="fcompany bt" href="#">企業理念</a>
-                    /
-                    <a class="fbusiness bt" href="#">事業案内</a>
-                    /
-                    <a class="fcorp bt" href="#">会社概要</a>
-                    /
-                    <a class="fcontact bt" href="#">お問い合わせ</a>
-                    /
+                <div class="item-d">
+                    
+                    ｜
+                    <a class="fbusiness btn" href="business.html">事業案内</a>
+                    ｜
+                    <a class="fcorp btn" href="company.html">会社概要</a>
+                    ｜
+                    <a class="fcontact btn" href="contact.html">お問い合わせ</a>
+                    ｜
 
 
                 </div>
@@ -258,26 +263,9 @@
 
 
                 
-                <div class="f8"></div>
-                
-                <div class="f9"></div>
-
-
-
-                
-                <div class="f10">
+                <div class="item-e">
                     <p class="cr">Copyright © MARINA Co.,Ltd. All Rights Reserved.</p>
                 </div>
-
-
-
-                
-                <div class="f11"></div>
-                
-                <div class="f12"></div>
-
-            
-            
             
                 
 
@@ -306,7 +294,8 @@
 
 
 
-
+    
+    <script src="jQuery.js"></script>
 
 
     </body>
